@@ -1,0 +1,39 @@
+$colour1:#e08414;
+
+.home-catagory-bg-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    >h1{
+        font-size: 4rem;
+        margin: 4rem 0rem;
+        color: $colour1;
+    }
+}
+
+.category-container-div{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.category-food-material{
+    height: 15rem;
+    width: 20rem;
+    margin: 2rem 1rem;
+    background-color: rgba(0, 0, 0, 0.747);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.2rem;
+    &>:hover{
+        transform: scale(1.1) rotate(-4deg);
+        color: white;
+        opacity: 1;
+    }
+}

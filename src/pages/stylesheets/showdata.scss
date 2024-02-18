@@ -1,0 +1,30 @@
+.showdata-image{
+    height: 16rem;
+    border-radius: 50%;
+    image-rendering: optimizeQuality;
+}
+
+#dish-name{
+    color: rgb(235, 160, 63);
+}
+
+.datainfo{
+    height: 40%;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    height: 3rem;
+    width: 90%;
+    cursor: pointer;
+    outline: none;
+    border-style: none;
+    background-color: rgb(235, 160, 63);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-style: italic;
+}
