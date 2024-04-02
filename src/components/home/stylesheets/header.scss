@@ -1,0 +1,45 @@
+.header-bcg-div{
+    height: 100%;
+    width: 100%;
+    padding: 0rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    >img{
+        height: 60%;
+    }
+}
+
+.header-content{
+    height: 50%;
+    width: 50%;
+    // background-color: rgba(240, 248, 255, 0.322);
+    >h1{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+}
+
+#header-content-explore-button{
+    height: 3rem;
+    width: 10rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: #e08414;
+    outline: none;
+    border-style: none;
+    border-radius: 0.33rem;
+    font-size: large;
+}
+
+@media screen and (max-width: 1350px) {
+    .header-content{
+        height: 50%;
+        width: 50%;
+        // background-color: rgba(240, 248, 255, 0.322);
+        >h1{
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+    }
+  }

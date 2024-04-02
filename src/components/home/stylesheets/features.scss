@@ -1,0 +1,28 @@
+.features-bg-div{
+    height: 140%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50% ,0%);
+}
+
+.feature1{
+    height: 50%;
+    width: 90%;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.507);
+    >h1{
+        margin: 15%;
+        >p{
+            font-size: large;
+            color: rgb(141, 141, 141);
+        }
+    }
+}
