@@ -10,7 +10,7 @@ import {
 import { getDatabase,set,ref } from "firebase/database"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyA3yIyPw10pUqJiFeFb1JrOzLy-tjuIevs",
+    apiKey: `${process.env.Firebase_API_Key}`,
     authDomain: "food-heaven-ca5f6.firebaseapp.com",
     databaseURL: "https://food-heaven-ca5f6-default-rtdb.firebaseio.com",
     projectId: "food-heaven-ca5f6",
