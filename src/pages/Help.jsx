@@ -6,9 +6,11 @@ import './stylesheets/help.scss'
 const Help = () => {
     const [Help,setHelp] = useState("");
     const firebase = useFirebase()
+    let userNo = 1;
 
     const send = ()=>{
-        firebase.putData(Help,"user"+"/1");
+        firebase.putData(Help,"user"+`/${userNo}`);
+        userNo++;
         setHelp("");
         alert("Thank you for contacting us. We will resolve your problem shortly...")
     }

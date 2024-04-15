@@ -1,5 +1,5 @@
 .categories-bg-div{
-    height: 65%;
+    height: 150%;
     width: 100%;
     position: absolute;
     top: 100%;
@@ -104,11 +104,3 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-@media screen and (max-width: 1350px) {
-    .category-food{
-        height: 10rem;
-        width: 14rem;
-        
-    }
-  }

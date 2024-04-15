@@ -4,7 +4,7 @@ import './stylesheets/footer.scss'
 
 const Footer = () => {
   return (
-    <div className="footer-bg-div">
+    <div className="footer-bcg-div">
         <h1>Food Web App</h1>
 
         <div className="footer-hyperlinks">

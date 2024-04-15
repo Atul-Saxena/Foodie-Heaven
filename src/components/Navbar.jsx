@@ -5,7 +5,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './stylesheets/navbar.scss'
 
-const Navbarcomponent = () => {
+const Navbar = () => {
   const app = getAuth(FirebaseApp)
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,7 +18,6 @@ const Navbarcomponent = () => {
   };
 
   return (
-    <>
     <div className="nav-background-div">
       <div className="nav-logo">
         <div className="nav-logo-inner-components">
@@ -45,10 +44,7 @@ const Navbarcomponent = () => {
       
       </div>
     </div>
-    </>
-
-    
   )
 }
 
-export default Navbarcomponent
+export default Navbar
