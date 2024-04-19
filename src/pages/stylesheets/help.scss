@@ -1,0 +1,29 @@
+.help-bg-div{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-evenly;
+    background-color: rgba(240, 248, 255, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 10%;
+    >textarea{
+        height: 80%;
+        width: 80%;
+        outline: none;
+        border-style: none;
+        background-color: rgba(0, 0, 0, 0.377);
+        padding: 2rem;
+        border-radius: 2em;
+        font-size: 1.5rem;
+    }
+    >button{
+        height: 3rem;
+        width: 10%;
+        border-radius: 2rem;
+    }
+}
