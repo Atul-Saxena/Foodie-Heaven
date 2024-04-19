@@ -9,15 +9,16 @@ import {
 } from "firebase/auth"
 import { getDatabase,set,ref } from "firebase/database"
 
+
 const firebaseConfig = {
-    apiKey: "AIzaSyA3yIyPw10pUqJiFeFb1JrOzLy-tjuIevs",
-    authDomain: "food-heaven-ca5f6.firebaseapp.com",
-    databaseURL: "https://food-heaven-ca5f6-default-rtdb.firebaseio.com",
-    projectId: "food-heaven-ca5f6",
-    storageBucket: "food-heaven-ca5f6.appspot.com",
-    messagingSenderId: "1060262987055",
-    appId: "1:1060262987055:web:a9c838004b06d29e534dda",
-    measurementId: "G-276E3CC01T",
+    apiKey: import.meta.env.VITE_Firebase_API_Key,
+    authDomain: import.meta.env.VITE_authDomain,
+    databaseURL: import.meta.env.VITE_databaseURL,
+    projectId: import.meta.env.VITE_projectId,
+    storageBucket: import.meta.env.VITE_storageBucket,
+    messagingSenderId: import.meta.env.VITE_messagingSenderId,
+    appId: import.meta.env.VITE_appId,
+    measurementId: import.meta.env.VITE_measurementId,
   };
 export const FirebaseApp = initializeApp(firebaseConfig);
 
